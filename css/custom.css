@@ -1,0 +1,22 @@
+.navbar-right {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: lighter; 
+    font-size: 60px;
+}
+
+h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: lighter; 
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    text-align: justify;
+}

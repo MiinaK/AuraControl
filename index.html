@@ -13,52 +13,252 @@
     <link href="css/custom.css" rel="stylesheet">
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Roboto:300" rel="stylesheet">
+    <!-- Font Awesome -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   </head>
       
   <body>
+  <div class="container">
+    <!-- Introduction -->
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1">
+        <img src="images/auracontrol_logo1.png" class="logo">
+      </div>	
+		</div>
 
-    <nav class="navbar">
+    <!-- Image carousel -->
+    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+    <!-- Column with the image carousel -->
+		<div class="col-xs-9 col-sm-9 col-md-5 col-lg-5">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">						
+				<div class="carousel-inner">
+					<div class="item active">
+						<img class="carousel-img d-block w-100" src="images/tehdas.JPG" alt="First slide">
+					</div>
+					<div class="item">
+						<img class="carousel-img d-block w-100" src="images/sisakuva.JPG" alt="Second slide">
+					</div>
+					<div class="item">
+						<img class="carousel-img d-block w-100" src="images/kaivos.JPG" alt="Third slide">
+					</div>
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+          <!-- Carousel indicators, three dots -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol> 
+				</div>								
+			</div>
+		</div> <!-- /Column with the image carousel -->
+   
+    <!-- About the company -->
+    <div class="col-xs-9 col-sm-9 col-md-5 col-lg-5 about-column col-xs-offset-1 col-sm-offset-1 col-md-offset-0 col-lg-offset-0">
+      <h2 class="heading">We design and implement automation and PLC systems</h2>
+      <p>Aura Control Oy was founded in spring 1998. The company designs and implements automation and PLC systems. Aura Control is pioneer in remote operation of automation systems. We can get you software updates and system support through internet or telephone lines. State of the art knowledge at Aura Control will make sure that you get the best out of your process. We will make sure that your controllers are tuned properly and we can also design modern predictive or fuzzy controllers if required. Aura Control Oy is system partner of Beijer Electronics which will give us the best possible technical support, quick delivery times and competitive prices. We offer full scale of Mitsubishi MELSEC PLC:s, FactoryLink ECS control room software, OD process automation system and Beijer Electronics E series operating panels. Aura Control Oy offers electrical, PLC and automation system commissioning support. We have commissioned quite a number of plants around the world.</p>
+    </div>
+
+	<!-- Work section -->
+		<div class="container">
+			<!-- Work heading 1 -->
+    		<div class="row">
+    			<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+   					<h3>References</h3>
+    			</div>
+    		</div>
+        <div class="row">
+			     <div class="panel-group" id="accordion1">
+        		  <div class="panel">
+          			<!-- Work heading 2 & two columns of references-->  				  
+                <div class="col-xs-9 col-sm-9 col-md-5 col-lg-5 col-xs-offset-1 col-sm-offset-1">
+                  <h2 class="long-heading">Systems designed and implemented by Aura Control</h2>
+                  <table class="table">
+                    <tbody>
+                      <tr>
+                        <td><img src="images/bulletpoint.png" style="width: 20px;"></td>  
+                        <td class="table-info">Landfill lechate treatment evaporator, Oppimitti s.r.l., Borgotaro, Italy</td>
+                        <td><img src="images/bulletpoint.png" style="width: 20px;"></td>
+                        <td class="table-info"> Concrete additive production plant, Finnsementti, Parainen, Finland</td>
+                      </tr>
+                      <tr>
+                        <td><img src="images/bulletpoint.png" style="width: 20px;"></td>
+                        <td class="table-info"> Printing machine dissolvent vapour treatment, Åkerlund & Rausing, Kauttua, Finland</td>
+                        <td><img src="images/bulletpoint.png" style="width: 20px;"></td>
+                        <td class="table-info"> Paint sample gluing robot, Norcolour, Parainen, Finland</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- Collapse button 1/1 -->
+                  <div class="row" id="1button-1row" style="margin-top: 20px;">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center" id="accordion1">
+                        <a href="#accordion1_1" class="accordion-toggle btn btn-link" role="button" data-toggle="collapse" data-parent="#accordion1">
+                          <i id="collapse-button1-1" class="fas fa-chevron-down fa-2x" onclick="changeCollapseButton1()" style="color: rgb(64, 127, 127)"></i>
+                        </a>
+                    </div>
+                  </div>
+                  <!-- Collapsed items 1 -->
+                  <div id="accordion1_1" class="panel-collapse collapse">
+                      <table class="table">
+                        <tbody>
+                          <tr>
+                            <td><img src="images/bulletpoint.png" style="width: 20px;"></td>
+                            <td class="table-info">Silt separator, Finnfeeds Finland, Naantali, Finland</td>
+                            <td><img src="images/bulletpoint.png" style="width: 20px;"></td>
+                            <td class="table-info">Limestone grinding optimisation and control, Nordkalk, Vampula, Finland</td>
+                          </tr>
+                          <tr>
+                            <td><img src="images/bulletpoint.png" style="width: 20px;"></td>
+                            <td class="table-info">Limestone grinding optimisation and control, Nordkalk, Siikainen, Finland</td>
+                            <td><img src="images/bulletpoint.png" style="width: 20px;"></td>
+                            <td class="table-info">Hydraulic plywood bender, Alastek, Alastaro, Finland</td>
+                          </tr>
+                          <tr>
+                            <td><img src="images/bulletpoint.png" style="width: 20px;"></td>
+                            <td class="table-info">Printing machine dissolvent vapour treatment, Å & R Carton, Kauttua, Finland</td>
+                            <td><img src="images/bulletpoint.png" style="width: 20px;"></td>
+                            <td class="table-info">Diesel power plant Petrolina (120MW) PLC & SCADA programming, Wärtsilä Corporation, Petrolina, Brazil</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    
+                  <!-- Collapse button 2/1 -->
+                  <div class="row display-none" id="1button-2row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center" id="accordion1">
+                      <a href="#accordion1_1" class="accordion-toggle btn btn-link" role="button" data-toggle="collapse" data-parent="#accordion1">
+                        <i id="collapse-button2-1" class="fas fa-chevron-up fa-2x" onclick="changeCollapseButton1()" style="color: rgb(64, 127, 127)"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div> 					  
+            
+              <!-- Work heading 3 -->
+    			     <div class="col-xs-9 col-sm-9 col-md-5 col-lg-5 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+   					      <h2 class="long-heading"">Installations with Aura Control PLC & Automation commissioning</h2>
+                  <!-- Two rows of references 2 -->
+                  <table class="table">
+                    <tbody>
+                      <tr>
+                        <td><img src="images/bulletpoint.png" style="width: 20px;"></td>
+                        <td class="table-info">Diesel power plant ”Palamara” (102MW), Wärtsilä Corporation, Santo Domingo, Dominican Republic</td>
+                        <td><img src="images/bulletpoint.png" style="width: 20px;"></td>
+                        <td class="table-info">Diesel power plant ”SRF Manali” (12MW), Wärtsilä Corporation, Chennai, Tamil Nadu, India</td>
+                      </tr>
+                      <tr>
+                        <td><img src="images/bulletpoint.png" style="width: 20px;"></td>
+                        <td class="table-info">Diesel power plant ”Balaji” (106MW), Wärtsilä Corporation, Madurai, Tamil Nadu, India</td>
+                        <td><img src="images/bulletpoint.png" style="width: 20px;"></td>
+                        <td class="table-info">Diesel power plant ”Akteks” (12MW), Wärtsilä Corporation, Gaziantep, Turkey</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <!-- Collapse button 1/2 -->
+                  <div class="row" id="2button-1row" style="margin-top: 20px;">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                      <a href="#accordion1_2" class="accordion-toggle collapsed btn btn-link" role="button" data-toggle="collapse" data-parent="#accordion1">
+                        <i id="collapse-button2" class="fas fa-chevron-down fa-2x" onclick="changeCollapseButton2()" style="color: rgb(64, 127, 127)"></i></a>
+                    </div>
+                  </div>
+                  <!-- Collapsed items 2 -->
+                  <div id="accordion1_2" class="panel-collapse collapse">
+                    <table class="table">
+                      <tbody>
+                        <tr>
+                          <td><img src="images/bulletpoint.png" style="width: 20px;"></td>
+                          <td class="table-info">Diesel power plant ”Matara” (24MW), Wärtsilä Corporation, Matara, Sri Lanka</td>
+                          <td><img src="images/bulletpoint.png" style="width: 20px;"></td>
+                          <td class="table-info">Diesel power plant ”Premier02” (8MW), Wärtsilä Corporation, Hosur, Tamil Nadu, India</td>
+                        </tr>
+                        <tr>
+                          <td><img src="images/bulletpoint.png" style="width: 20px;"></td>
+                          <td class="table-info">Diesel power plant ”Moser Baer” (16MW), Wärtsilä Corporation, Greater Noida, Uttar Pradesh, India</td>
+                          <td><img src="images/bulletpoint.png" style="width: 20px;"></td>
+                          <td class="table-info">Orimulsion power plant “Duke Planta Arizona” (165MW), Wärtsilä Corporation, Puerto San Jose, Guatemala</td>
+                        </tr>
+                        <tr>
+                          <td><img src="images/bulletpoint.png" style="width: 20px;"></td>
+                          <td class="table-info">Flue Gas Desulphurization (FGD) plant, Kvaerner Power, Puerto San Jose, Guatemala</td>
+                          <td><img src="images/bulletpoint.png" style="width: 20px;"></td>
+                          <td class="table-info">Diesel power plant “Heladhanavi” (102MW), Wärtsilä Corporation, Puttalam, Sri Lanka</td>
+                        </tr>
+                        <tr>
+                          <td><img src="images/bulletpoint.png" style="width: 20px;"></td>
+                          <td class="table-info">Diesel power plant “Tombo V Extension” (10MW), Wärtsilä Corporation, Conakry, Guinea</td>
+                          <td><img src="images/bulletpoint.png" style="width: 20px;"></td>
+                          <td class="table-info">Diesel power plant “Ponderosa” (24MW), Wärtsilä Corporation, San Juan del Rio, Mexico</td>
+                        </tr>
+                      <tr>
+                          <td><img src="images/bulletpoint.png" style="width: 20px;"></td>
+                          <td class="table-info">Diesel power plant “Thira Extension” (8MW), Wärtsilä Corporation, Santorini, Greece</td>
+                          <td><img src="images/bulletpoint.png" style="width: 20px;"></td>
+                          <td class="table-info">Diesel power plant “Karpathos” (6MW), Wärtsilä Corporation, Karpathos, Greece</td>
+                      </tr>
+                      <tr>
+                          <td><img src="images/bulletpoint.png" style="width: 20px;"></td>
+                          <td class="table-info">Diesel power plant “Thira Extension 2” (8MW), Wärtsilä Corporation, Santorini, Greece</td>
+                          <td><img src="images/bulletpoint.png" style="width: 20px;"></td>
+                          <td class="table-info">Diesel power plant “Fushe Kruje” (24MW), Wärtsilä Corporation, Tirana, Albania</td>
+                      </tr>
+                      <tr>
+                        <td><img src="images/bulletpoint.png" style="width: 20px;"></td>
+                        <td class="table-info">Diesel power plant “CEP” (48MW), Wärtsilä Corporation, Phnom Penh, Cambodia</td>
+                        <td><img src="images/bulletpoint.png" style="width: 20px;"></td>
+                        <td class="table-info">Diesel power plant “KEP Extension” (15MW), Wärtsilä Corporation, Phnom Penh, Cambodia</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div> <!-- accordion -->
+                <!-- Collapse button 1/2 -->
+                <div class="row display-none" id="2button-2row" style="margin-top: 20px;">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                      <a href="#accordion1_2" class="accordion-toggle collapsed btn btn-link" role="button" data-toggle="collapse" data-parent="#accordion1">
+                      <i id="collapse-button2-2" class="fas fa-chevron-up fa-2x" onclick="changeCollapseButton2()" style="color: rgb(64, 127, 127)"></i></a>
+                  </div>
+    			     </div>	<!-- column -->	    		    			
+			
+    		    </div>	
+          </div> <!--- panel -->
+        </div> <!--- panel-group -->
+      </div> <!--- row -->
+    </div> <!--- container -->
+
+<!--- Footer -->
+<footer class="navbar navbar-default navbar-fixed-bottom">
       <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar" style="background-color: black"></span>
-            <span class="icon-bar" style="background-color: black"></span>
-            <span class="icon-bar" style="background-color: black"></span>
-          </button>
+        <div class="row">
+        	<div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+        		<h4>Aura Control Oy</h4>
+        		<p class="footer-p">Karjakuja 49<br>20540 Turku</p>
+        	</div>
+        	<div class="col-xs-6 col-sm-6 col-md-2 col-lg-1 contact">
+        		<h4>Contact</h4>
+        		<p class="footer-p">Seppo Koskinen</p>
+        		<a href="admin [at] example.com"
+   				rel="nofollow" onclick="this.href='mailto:' + 'seppo.koskinen' + '@' + 'auracontrol.fi'">
+   					<i class="far fa-envelope"></i>
+   				</a>
+        	</div>
+        </div>
+      </div>
+</footer>
 
-          <!-- Home icon -->
-          <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-home"></span></a>
-        </div>
-
-        <!-- Menu items -->
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-    </div>
-  </div>
-</nav>
-
-    <!-- Rest of the content -->
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center">
-          <img src="logo.png" class="img-fluid" style="width: 40%; margin-top: 5%;">
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
-          <h1 class="heading">Aura Control Oy</h1>
-          <h2 class="heading">We design and implemet automation and PLC systems</h2>
-          <p>Aura Control Oy was founded in spring 1998. The company designs and implements automation and PLC systems. Aura Control is pioneer in remote operation of automation systems. We can get you software updates and system support through internet or telephone lines. State of the art knowledge at Aura Control will make sure that you get the best out of your process. We will make sure that your controllers are tuned properly and we can also design modern predictive or fuzzy controllers if required. Aura Control Oy is system partner of Beijer Electronics which will give us the best possible technical support, quick delivery times and competitive prices. We offer full scale of Mitsubishi MELSEC PLC:s, FactoryLink ECS control room software, OD process automation system and Beijer Electronics E series operating panels. Aura Control Oy offers electrical, PLC and automation system commissioning support. We have commissioned quite a number of plants around the world.   
-          </p>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
-        </div>
-    </div>
+<a href="javascript:" id="return-to-top"><i class="fas fa-chevron-up"></i></a>
+    	
+</div> <!-- outer container -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+	   <script src="js/designs.js"></script>
   </body>
 </html>
